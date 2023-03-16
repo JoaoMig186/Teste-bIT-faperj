@@ -2,7 +2,7 @@
 
 <h3>Teste Front end para bolsista de Inovação Tecnológica FAPERJ</h3>
 
-<b>ATENÇÃO, para rodar o projeto utilize o comando npm run backend para para inicializar o json server e o comando npm run dev para inicializar o projeto</b>
+<b>ATENÇÃO, para rodar o projeto utilize o comando npm run backend para para inicializar o json server e o comando npm run dev para inicializar o projeto, visto que foi utilizda a solução VITE para ciação do web app.</b>
 
 O projeto está realizado como pedido no enunciado (feito com REACT.js e com React-Bootstrap). 
 Códigos CSS também foram implementados a fim de adaptar componentes, tags e melhorar a responsividade.
