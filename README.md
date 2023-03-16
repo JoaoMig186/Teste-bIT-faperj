@@ -30,5 +30,5 @@ O footer foi importado do site da mdb react, onde possuem componentes pré-defin
 <b>Main</b><br/>
 O main conta com os componentes de tabela -Table-, modal -Modal- e formulário -Form-. Todos estão adaptados a dispositivos móveis rodando no Google Chrome. Esses componentes foram feitos com React-Bootstrap e com customizações CSS, tanto para personalização quanto para adaptações mobile.
 
-Espero que tenha ficado tudo bem explicado, mas qualuqer dúvida, pode entrar em contato comigo pelo email: joaomiguelscrs@gmail.com
+Espero que tenha ficado tudo bem explicado, mas qualquer dúvida, pode entrar em contato comigo pelo email: joaomiguelscrs@gmail.com
 Obrigado pela atenção :)
