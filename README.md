@@ -12,7 +12,7 @@ Foi utilizada a solução <b>VITE</b> para criação do Web App REACT e foi util
 <ul>
   <li>npm install (para instalar os módulos necessários na raíz do projeto);</li>
   <li>npm install json-server (para instalar as dependências do JSON);</li>
-  <li>npm i mdb-react-ui-kit (para importar os módulos do mdb react, que é uma ferramenta para usar o bootstrap com react utilizada no footer do projeto;</li>
+  <li>npm i mdb-react-ui-kit (para importar os módulos do mdb react, que é uma ferramenta para usar o bootstrap com react utilizada no footer do projeto);</li>
   <li>npm install react-bootstrap bootstrap (para instalar as dependências do react-bootstrap);</li>
   <li>comandos como npm run dev (para inicializar o projeto) e npm run backend (para inicializar o json server).</li>
 </ul>
