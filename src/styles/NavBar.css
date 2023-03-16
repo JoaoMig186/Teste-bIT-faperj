@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+:root{
+    --neon-blue: #02d6f0;
+    --background-dark-blue: #041942;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+}
+
+.navbar a{
+    display: flex;
+    flex-direction: row;
+    color: var(--neon-blue);
+    text-decoration: none;
+    margin: 25px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.navbar a:hover::after {
+    content: ''; 
+    display: block;
+    position: absolute;
+    width: 3%; 
+    height: 2px; 
+    bottom: 0; 
+    background-color: #ffffff; 
+  }
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: row;
+    left: 0;
+    margin-left: 20px;
+}
+.navbar .logo:hover{
+    cursor: default;
+}
+
+.navbar p{
+    display: flex;
+    justify-self: flex-end;
+    color: var(--neon-blue);
+}
+
+.navbar img{
+    width: 70px;
+}
+
+@media (max-width:700px){
+    .navbar{
+        flex-direction: column;
+        height: 100%;
+    }
+    .navbar a:hover::after {
+        display:none;
+    
+    }    
+
+    .navbar a{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar .logo{
+        position:relative;
+        top: 0;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+    .navbar a:hover{
+        background-color: #0e1a30;
+    }
+}

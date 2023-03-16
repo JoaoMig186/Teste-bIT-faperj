@@ -1,0 +1,40 @@
+:root{
+    --neon-blue: #02d6f0;
+}
+
+tr:hover{
+    color: var(--neon-blue);
+}
+
+.mobileTable{
+    flex-direction: column;
+    margin: auto;
+    width: 85vw;
+    display: none;
+}
+
+.eachItem{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
+.eachItem span{
+    color:#fff
+}
+
+.eachItem:hover{
+    border: 2px solid var(--neon-blue);
+}
+
+.eachItem:hover span{
+    color: var(--neon-blue);
+}
+
+@media (max-width:900px){
+    .mobileTable{
+        display: flex;
+    }
+}

@@ -1,0 +1,60 @@
+{
+  "clientes": [
+    {
+      "nome": "João Miguel",
+      "email": "joaomiguelscrs@gmail.com",
+      "data": "20/02/2003",
+      "senha": "xxxxx",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nome": "João Miguel dos Santos",
+      "email": "joaomiguel@santos",
+      "data": "10/02/2003",
+      "senha": "hhhhhhh"
+    },
+    {
+      "id": 3,
+      "nome": "Outro cliente",
+      "email": "outrocliente@.com",
+      "data": "14/05/1114",
+      "senha": "asdsadsa"
+    },
+    {
+      "id": 4,
+      "nome": "Outro cliente",
+      "email": "outrocliente@asdcom",
+      "data": "14/05/1114",
+      "senha": "asdsadsa"
+    },
+    {
+      "id": 5,
+      "nome": "Teste",
+      "email": "Teste@gmail.com",
+      "data": "14/17/4174",
+      "senha": "dasdasd"
+    },
+    {
+      "id": 6,
+      "nome": "joao Miguel teste",
+      "email": "joao@asffas",
+      "data": "58/45/4165",
+      "senha": "asdasfasf"
+    },
+    {
+      "id": 7,
+      "nome": "LOWWW",
+      "email": "low@aaa",
+      "data": "12/61/2612",
+      "senha": "asfasfasf"
+    },
+    {
+      "id": 8,
+      "nome": "Funcionou meu irmao",
+      "email": "fa@fa",
+      "data": "28/52/6265",
+      "senha": "asfasfasfa"
+    }
+  ]
+}

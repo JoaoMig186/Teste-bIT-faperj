@@ -1,0 +1,38 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+h1{
+    display: flex;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.info{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    color:#fff;
+}
+
+.form{
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+@media (max-width:900px){
+
+    h1, .info{
+        text-align: center;
+    }
+    table{
+        display: none;
+    }
+}
