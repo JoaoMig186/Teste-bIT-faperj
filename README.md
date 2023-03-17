@@ -1,8 +1,9 @@
 # teste-bIT-faperj
 
+<h2>Recomenda colocar a pasta do projeto na raiz da sua unidade de memória dentro de uma pasta chamada "React". Caminho do diretório original meu: "C:\React\teste-bti-faperj"</h2>
 <h3>Teste Front end para bolsista de Inovação Tecnológica FAPERJ</h3>
 
-<b>ATENÇÃO, para rodar o projeto utilize o comando "npm run backend" para para inicializar o json server e o comando "npm run dev" para inicializar o projeto, visto que foi utilizda a solução VITE para ciação do web app.</b>
+<b>ATENÇÃO, para rodar o projeto primeiramente dê o comando "npm install" no terminal para garantir que todas as dependências default serão instaladas. Também instale o vite pelo comando "npm i vite" e o Json server pelo comando "npm install json-server". Logo após isso, utilize o comando "npm run backend" para para inicializar o json server e o comando "npm run dev" para inicializar o projeto, visto que foi utilizda a solução VITE para ciação do web app.</b>
 
 O projeto está realizado como pedido no enunciado (feito com REACT.js e com React-Bootstrap). 
 Códigos CSS também foram implementados a fim de adaptar componentes, tags e melhorar a responsividade.
