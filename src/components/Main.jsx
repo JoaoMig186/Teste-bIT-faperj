@@ -2,7 +2,7 @@ import { useState } from 'react';
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import '/React/teste-bti-faperj/src/styles/Main.css'
+import '../styles/Main.css'
 import { Modal } from 'react-bootstrap';
 import { IMaskInput } from 'react-imask';
 import TableUsable from './TableUsable';
