@@ -1,6 +1,6 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
-import '/React/teste-bti-faperj/src/styles/Table.css'
+import '../styles/Table.css'
 
 class TableUsable extends React.Component{
   constructor(props){
