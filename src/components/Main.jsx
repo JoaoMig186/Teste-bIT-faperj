@@ -26,7 +26,7 @@ class Main extends React.Component{
         if((this.state.nome == "") || (this.state.data == "") || (this.state.email == "") || (this.state.senha== "")){
             return
         } else {
-            fetch("http://localhost:5000/clientes", {method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(cliente)})
+            fetch("https://api-todolist.vercel.app/clientes", {method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(cliente)})
             .then(response => {
             if (response.ok){
                 this.searchClient();
@@ -42,7 +42,7 @@ class Main extends React.Component{
     }
 
     searchClient(){
-        fetch("http://localhost:5000/clientes")
+        fetch("https://api-todolist.vercel.app/clientes")
         .then(response => response.json())
         .then(datas => {
             this.setState({clientes : datas})
