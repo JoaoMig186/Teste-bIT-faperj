@@ -1,5 +1,5 @@
-import '/React/teste-bti-faperj/src/styles/NavBar.css'
-import Logo from '/React/teste-bti-faperj/src/assets/generic-logo.png'
+import '../styles/NavBar.css'
+import Logo from '../assets/generic-logo.png'
 
 function NavBar(){
     return(
