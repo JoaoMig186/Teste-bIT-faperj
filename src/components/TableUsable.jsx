@@ -11,7 +11,7 @@ class TableUsable extends React.Component{
 }
 
 componentDidMount(){
-  fetch("http://localhost:5000/clientes")
+  fetch("https://api-todolist.vercel.app/clientes")
   .then(response => response.json())
   .then(datas => {
       this.setState({clientes : datas})
